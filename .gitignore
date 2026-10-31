@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.nbc
+*.nbi
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# OS / Editor junk
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Raw simulation replications (large files)
+results/**/raw/
+simulation_study/results/**/raw/
+**/raw/
+
+# Real data files (WIP / excluded from simulation release)
+real_data_analysis.py
+insulating_fluid_nelson.csv
+results_real/
+headline_numbers.csv
+report.tex
+*.pdf
