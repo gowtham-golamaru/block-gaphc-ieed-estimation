@@ -1,8 +1,5 @@
 # Classical and Bayesian Estimation for Block Generalized Adaptive Progressive Hybrid Censoring (IEED)
 
-[![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 This repository contains the simulation study implementation for the research paper:
 
 > **"Classical and Bayesian Estimation for Block Generalized Adaptive Progressive Hybrid Censoring for a General Class of Inverted Exponentiated Distributions"**  
@@ -10,7 +7,7 @@ This repository contains the simulation study implementation for the research pa
 
 ---
 
-## 📌 Overview
+##  Overview
 
 This project studies inference procedures for the **Inverted Exponentiated Exponential Distribution (IEED)** under the **Block Generalized Adaptive Progressive Hybrid Censoring (GAPHC)** scheme with two time thresholds $T_1 < T_2$. Multiple testing facilities share a common baseline scale parameter $\lambda$, while each facility has its own shape parameter $\theta_i$ that may satisfy a physical order restriction:
 
@@ -31,7 +28,7 @@ $$\theta_1 \le \theta_2 \le \cdots \le \theta_k$$
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```text
 .
@@ -65,7 +62,7 @@ $$\theta_1 \le \theta_2 \le \cdots \le \theta_k$$
 
 ---
 
-## 🚀 Quickstart & Installation
+##  Quickstart & Installation
 
 ### 1. Requirements
 Ensure you have Python 3.9+ installed, then install dependencies:
@@ -117,7 +114,7 @@ python simulation_study/sim_data_analysis.py
 
 ---
 
-## 📊 Mapping Results to the Paper
+##  Mapping Results to the Paper
 
 | Table / Figure in Paper | Output File | Description |
 | :--- | :--- | :--- |
@@ -131,8 +128,3 @@ python simulation_study/sim_data_analysis.py
 | **Figure 1** | `figures/fig_mse.png` | MSE of $\theta_1, \theta_2, \lambda$ across plans and sample sizes |
 | **Figure 2** | `figures/fig_cp.png` | Empirical 95% coverage probabilities (with Monte Carlo error bands) |
 | **Figure 3** | `figures/fig_ratio.png` | MSE ratios ($\text{ORMLE}/\text{MLE}$ and $\text{OR-BE}/\text{BE}$) |
-
----
-
-## 📜 License
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
